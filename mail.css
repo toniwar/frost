@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Amatic+SC:wght@400;700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@500;600&family=Lobster&family=Pattaya&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Prata&family=Press+Start+2P&family=Rubik+Beastly&display=swap');
+.border {
+    background-image: url('border.png');
+    background-size: cover;
+    position: absolute;
+    width: 1600px;
+    height: 1200px;
+    left: 0;
+    top:0;
+    z-index: 1;
+}
+.fon{
+    background-image: url('снежинки2.jpg');
+    width: 1550px;
+    height: 1150px;
+    background-repeat: no-repeat;
+
+   
+    
+}
+#bird{
+    padding-top: 125px;
+    margin-left: 15%;
+    padding-left: 10px;
+    border-radius: 30px;
+    width: 60%;
+    height: 73%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Pattaya', sans-serif;
+    color: yellow;
+    -webkit-text-stroke:1px salmon;
+
+       
+}
+#birdMail{
+    border-radius: 20px;
+    border:2px solid yellow;
+}
