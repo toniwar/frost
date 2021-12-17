@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Amatic+SC:wght@400;700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@500;600&family=Lobster&family=Pattaya&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Prata&family=Press+Start+2P&family=Rubik+Beastly&display=swap');
+body{
+  background-image: url('stars.jpg');
+  background-size: cover;  
+  background-repeat: no-repeat;
+}
+.general{
+    margin-left: 7%;
+}
+.border {
+    background-image: url('border.png');
+    background-size: cover;
+    position: absolute;
+    width: 1600px;
+    height: 1200px;
+    left: 0;
+    top:0;
+    z-index: 2;
+    margin-left: 7%;
+}
+
+.messageFon{
+    width: 1430px;
+    z-index: -2;
+    margin: 20px 0 10px 30px ;
+     transform:  rotate(-0.5deg);
+}
+.title{
+    text-align: center;
+    color: blue;
+    margin-top: 46mm;
+    margin-right: 15mm; 
+    font-size: 40px;
+    /* border: 1px solid red; */
+}
+
+.textMes {
+    font-family: 'Balsamiq Sans';
+    font-size: 35px;
+    color: blue;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+.myNameIs{
+    margin-left: 200px;
+    padding-top: 10px;
+
+}
+.forWrite{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 35px;
+    border: none;
+    background: none;
+    color: red;
+    resize: none;
+    
+}
+.s1{
+    width: 100%;
+  display: flex;  
+}
+
+.age{
+   
+   margin-left: 15%;
+   padding-top: 13px;   
+}
+.info{
+    text-align: center;
+    background-color: rgb(210, 235, 142);
+    padding: 20px;
+    border: 3px solid cornflowerblue;
+    border-radius: 20px; 
+    color: rgb(57, 57, 219);
+    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+#infoName{
+    margin-left: 10px;
+}
+#infoAge{
+    margin-left: 10px;
+}
+.info:active{
+    background-color: yellow;
+    border-color: tomato;
+}
+
+#windowName{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    background-color: rgb(247, 199, 171);
+    border: 3px solid rgb(138, 230, 110);
+    border-radius: 20px;
+    box-shadow: 10px 8px 8px gray;
+    z-index: 2;
+    display: none;
+
+}
+#windowTextName{
+    width: 61%;
+    margin-top: 5%;
+    height: 45px;
+    font-size: 35px;
+    border: 3px solid rgb(138, 230, 110);
+    color: red;
+    background-color: rgb(250, 232, 211);
+    padding: 5px;
+    
+}
+#infoWindowName{
+    margin-left: 85px ;
+    margin-right: 85px;
+    text-align: center;
+    background-color: rgb(210, 235, 142);
+    padding: 20px;
+    border: 3px solid cornflowerblue;
+    border-radius: 20px; 
+    color: rgb(57, 57, 219);
+    font-size: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+#infoWindowName:active{
+    background-color: yellow;
+    border-color: tomato;
+}
+#enterName{
+    color: tomato;
+    font-size: 35px;
+    margin-left: 10px;
+    font-family: 'Balsamiq Sans';
+    padding-top: 10px;
+}
+#enterName:active{
+    background-color: yellow;
+}
+
+#windowAge{
+    padding-top: 20px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    left: 50%;
+    top: 20%;
+    position: absolute;
+    background-color: rgb(247, 199, 171);
+    border: 3px solid rgb(138, 230, 110);
+    border-radius: 20px;
+    box-shadow: 10px 8px 8px gray;
+    z-index: 2;
+    display: none;
+}
+
+#rowAge {
+    width: 61%;
+    margin-top: 5%;
+    margin: auto;
+    height: 45px;
+    font-size: 35px;
+    border: 3px solid rgb(138, 230, 110);
+    color: red;
+    background-color: rgb(250, 232, 211);
+    padding: 5px;
+   
+}
+
+#tableAge{
+    margin:auto;
+    text-align: center;
+    background-color: rgb(211, 247, 141);
+    border-radius: 20px;
+    border: 3px solid rgb(138, 230, 110);
+    width: 80%;
+    height: 80%;
+    font-family: 'Balsamiq Sans';
+    font-size: 30px;
+
+}
+.cif{
+    padding: 20px 0 20px 0;
+    background-color: seashell;
+    border-radius: 5px;
+    border: 3px solid rgb(138, 230, 110);
+}
+.cif:active{
+    background-color: rgb(253, 109, 109);
+}
+#del{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: rgb(236, 85, 85);
+    border-radius: 50%;
+    left: 15%;
+    bottom:11%;
+    border: 3px solid yellow;
+}
+#delX{
+    padding-top: 20%;
+    font-size: 15px;   
+}
+#del:active{
+    background-color: lime;
+}
+#ent{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: rgb(48, 238, 41);
+    border-radius: 50%;
+    right: 15%;
+    bottom:11%;
+    border: 3px solid yellow;
+}
+#entX{
+    padding-top: 20%;
+    font-size: 15px;   
+}
+#ent:active{
+    background-color: rgb(252, 84, 33);
+}
+#enterAge{
+    color: tomato;
+    font-size: 35px;
+    margin-left: 10px;
+    font-family: 'Balsamiq Sans';
+    padding-top: 11px;
+}
+#ssory{
+    padding-top: 30px;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    left:18% ;
+    top:20%;
+    position: absolute;
+    background-color: rgb(247, 199, 171);
+    border: 3px solid rgb(255, 60, 11);
+    border-radius: 20px;
+    box-shadow: 10px 8px 8px gray;
+    z-index: 2;
+    font-size: 35px;
+    display: none;
+}
+
+#acc{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(207, 199, 199);
+    border-radius: 5px;
+    border:3px solid dimgrey;
+}
+#acc:active{
+    background-color: red;
+}
+.s2{
+    width: 100%;
+    display: flex;
+    margin-top: 4.3%;
+    padding-top: 20px;
+}
+
+#divPrize{
+    
+    width: 26%;
+    margin-left: 12%;
+    
+}
+
+#infoPrize{
+    width: 15%;
+    margin-left: 20px;
+    
+    
+}
+#box{
+    position: absolute;
+    width: 200px;
+    height: 800px;
+    top:10%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+#boxForm{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    left: 65%;
+    top: 60%;
+    position: absolute;
+    background-color: rgb(247, 199, 171);
+    border: 3px solid rgb(138, 230, 110);
+    border-radius: 20px;
+}
+#boxText{
+    width: 90%;
+    margin-top: 60px;
+    border:none;
+    background-color: rgb(247, 199, 171);
+    border-bottom: 2px solid brown;
+    font-family: 'Balsamiq Sans';
+    font-size: 30px;
+    color: lime;
+    -webkit-text-stroke: 1px rgb(70, 57, 255);
+}
+#infoPrise{
+    position: absolute;
+    width:20%;
+    height: 5%;
+    bottom:10%;
+    left: 35%;
+    padding-bottom: 30px;
+}
+#enterPrize{
+    width: 40%;
+    color: tomato;
+    font-size: 35px;
+    margin-left: 10px;
+    font-family: 'Balsamiq Sans';
+    padding-top: 2px;
+}
+#send{
+    width:300px;
+    margin-top: 32%;
+}
+#sub{
+    
+    margin-left: 337%;
+    text-align: center;
+    width: 230px;
+    padding:30px;
+    background-color: salmon;
+    font-family: 'Balsamiq Sans';
+    color: rgb(34, 5, 138);
+    border-radius: 15px;
+    font-size: 20px;
+}
